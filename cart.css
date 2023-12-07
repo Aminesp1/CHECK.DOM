@@ -1,0 +1,42 @@
+.artical_image{
+    width: 200px;
+    height: 200px;
+}
+#container {
+    width: 100%;
+    background-color: rgb(136, 163, 196);
+}
+
+.row_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 24px;
+}
+
+.red {
+    color: red;
+}
+
+.fa-plus,
+.fa-minus,
+.fa-trash,
+.fa-heart {
+    cursor: pointer;
+}
+title{
+    background-color: rgb(214, 30, 30);
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(253, 253, 253, 0.9);
+    font-size: 30px;
+}
+
+.navbar>.container {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    background-color: grey;
+}
